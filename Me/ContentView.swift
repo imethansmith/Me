@@ -22,7 +22,7 @@ struct ContentView: View {
                     .overlay(Circle().stroke(Color.white, lineWidth: 5))
                 Text("Ethan Smith")
                     .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(.black)
+                    .foregroundColor(Color("MainTextColor"))
                     .bold()
                 Text("iOS Developer")
                     .font(.system(size: 25))
